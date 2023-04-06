@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ke6">
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="243dp"
+        android:background="@drawable/p1"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/white"
+        android:text="pteridophyta (paku purba)" />
+
+    <TextView android:layout_height="243dp"
+        android:layout_width="137dp"
+        android:background="@drawable/p2"
+        android:fontFamily="@font/poppinssemibold"        android:text="pteridophyta (paku kawat)"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView android:layout_height="243dp"
+        android:layout_width="137dp"
+        android:background="@drawable/p3"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="pteridophyta (paku sejati)"
+        android:textColor="@color/white"
+        android:layout_gravity="top|right" />
+
+    <TextView android:text="spermatophyta (berbiji terbuka)"
+        android:textColor="@color/white"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/bs"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_width="137dp"
+        android:layout_height="243dp" />
+
+    <TextView android:text="bryophyta (lumut hati)"
+        android:layout_gravity="left|center_vertical"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/white"
+        android:background="@drawable/l1"
+        android:layout_width="137dp"
+        android:layout_height="243dp" />
+
+    <TextView android:layout_height="243dp"
+        android:layout_width="137dp"
+        android:background="@drawable/l3"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="bryophyta (lumut tanduk)"
+        android:textColor="@color/white"
+        android:layout_gravity="right|center_vertical" />
+
+    <TextView android:layout_height="243dp"
+        android:layout_width="137dp"
+        android:background="@drawable/l2"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/white"
+        android:text="bryophyta (lumut daun)"
+        android:layout_gravity="center" />
+
+    <TextView android:layout_height="243dp"
+        android:layout_width="137dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/white"
+        android:background="@drawable/bs1"
+        android:text="spermatophyta (berbiji terbuka)"
+        android:layout_gravity="center|bottom" />
+
+    <TextView android:layout_height="243dp"
+        android:textColor="@color/white"
+        android:layout_width="137dp"
+        android:background="@drawable/bs2"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="spermatophyta (berbiji tertutup)"
+        android:layout_gravity="right|bottom" />
+
+</FrameLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ke7">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:background="@color/white">
+
+        <TableRow android:background="@color/primaryColor">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Ciri-ciri kingdom animalia"
+                android:fontFamily="@font/poppinssemibold"
+                android:textColor="@color/white"/>
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Dapat Bergerak.
+Hewan-hewan dalam kelompok kingdom animalia memiliki sistem gerak untuk menggerakkan bagian-bagian tubuh hewan."
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Habitat.
+Hewan menempati hampir semua habitat dan mikrohabitat di bumi, termasuk air asin, ventilasi hidrotermal, air tawar, mata air panas, rawa, hutan, padang rumput, gurun, udara, hingga bagian dalam hewan, tumbuhan, jamur dan batu."
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Tidak Memiliki Dinding Sel.
+Berbeda halnya dengan tumbuhan, sel hewan tidak memiliki fungsi dinding sel seperti tumbuhan yang memberikan kesan keras atau kaku untuk perlindungan terhadap isi sel di dalamnya, tetapi tetap memiliki fungsi membran sel."
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Sistem Organ.
+Hewan-hewan dalam kelompok kingdom animalia memiliki banyak sistem organ. Sistem organ tersebut mempunyai fungsi spesifik yang penting untuk bertahan hidup. Sistem organnya terdiri atas sistem skeletal (rangka), sistem otot, sistem pencernaan, sistem sirkulatori, sistem reproduksi, sistem imun, dan hormon."
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Bentuk Tubuh.
+Bentuk tubuh hewan sebagian besar simetris bilateral, sedangkan hewan primitif (hewan sederhana) memiliki tubuh asimetris. "
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

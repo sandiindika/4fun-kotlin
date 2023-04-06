@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ke5">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:background="@color/white">
+
+        <TableRow android:background="@color/primaryColor">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Ciri-ciri kingdom plantae"
+                android:fontFamily="@font/poppinssemibold"
+                android:textColor="@color/white"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Multiseluler atau mempunyai banyak sel"
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Autrotrof, bisa membuat makanan sendiri"
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Eukariotik, merupakan sel yang telah memiliki membrane inti sel."
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Memperoleh makanan dengan cara fotosintesis yang dibantu dengan cahaya matahari"
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Bereproduksi secara seksual (putik dan benang sari) maupun aseksual (cangkok, tunas, setek dan lainya)"
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Memiliki akar yang berguna untuk menyerap air dan memperkokoh tumbuhan"
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Memiliki daun untuk mengumpulkan sinar matahari yang digunakan untuk menghasilkan glukosa. Memiliki organ dan sistem organ Memiliki bunga sebagai alat reproduksi seksual."
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Memiliki pergiliran keturunan dalam siklus hidupnya yang disebut metagenesis. Metagenesis pada kingdom plantae adalah siklus hidup suatu tumbuhan yang menampilkan suatu pergiliran generasi. Siklus tersebut tersusun dari generasi gametofit yang merupakan individu multiseluler menghasilkan gamet haploid serta generasi sporofit yang merupakan individu multiseluler yang menghasilkan spora yang dihasilkan oleh sel penghasil spora (sel sporogenik)."
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Hidup di daratan yang lembab atau perairan"
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Terdapat dinding sel yang terbuat dari selulosa"
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

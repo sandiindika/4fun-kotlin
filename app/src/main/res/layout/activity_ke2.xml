@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ke2"
+    android:backgroundTint="@color/background">
+
+    <ImageView
+        android:id="@+id/R_img_1"
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-35dp"
+        android:layout_marginTop="-33dp"
+        android:src="@drawable/d1" />
+
+    <TextView
+        android:id="@+id/R_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-112dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Kingdom Plantae"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Dunia Tumbuhan"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/R_txt_1"
+        android:id="@+id/R_txt_2"/>
+
+    <ImageView
+        android:id="@+id/L_img_2"
+        android:layout_width="333dp"
+        android:layout_height="218dp"
+        android:layout_below="@id/R_txt_2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/d2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/L_img_2"
+        android:layout_marginTop="-50dp"
+        android:padding="30dp"
+        android:id="@+id/ly_1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Jenis-jenis kingkon plantae"
+            android:background="@drawable/button_shape"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/edt_fullname"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Filum pteridophyta"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/edt_email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Filum bryophyta"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/edt_password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Filum spermatophyta"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/edt_conf_password"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read More"
+        android:layout_below="@id/ly_1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:width="300dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/R_btn_1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/R_btn_1"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penjelasan"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" dan "
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/SecondaryColor"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gambar"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="12dp"
+            android:id="@+id/txt_login"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

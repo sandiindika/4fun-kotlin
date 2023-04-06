@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="-80dp"
+        android:src="@drawable/d" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KLASIFIKASI MAKHLUK"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:text="HIDUP"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_1.1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:text="mengelompokkan makhluk hidup berdasarkan kesamaan ciri yang dimiliki. Tujuan mengklasifikasikan makhluk hidup adalah untuk mempermudah mengenali, membandingkan, dan mempelajari makhluk hidup."
+        android:padding="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/txt_2"
+        android:width="300dp"
+        android:text="Kingdom Animalia"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:id="@+id/btn_1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btn_1"
+        android:width="300dp"
+        android:text="Contoh Gambar"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:id="@+id/btn_2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btn_2"
+        android:width="300dp"
+        android:text="Kingdom Plantae"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:id="@+id/btn_3"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btn_3"
+        android:width="300dp"
+        android:text="Contoh Gambar"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:id="@+id/btn_4"/>
+
+</RelativeLayout>
