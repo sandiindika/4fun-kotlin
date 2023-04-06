@@ -1,1 +1,2 @@
 # PB4D_21-157_RIZKY-ANISA-YASINTAAA
+Memuat mengenai bagaimana suatu layout dibangun dalam desain tampilan. Dengan tema penjelasan singkat menginai pengklasifikasian makhluk hidup yaitu kingdom plantae dan kingdom animalia. Antara satu activity dengan activity yang yainnya saling terhubung melalui button yang telah ditambhakan dan dilinkkan ke activity yang lainnya. Terdapat beberapa layout seperti layout frame, layout linier, layout relative, widge view dan constrain layout. Beberapa gambar juga ditmbahkan sebagai penunjang tampilan. 
