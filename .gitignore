@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+.gitignore
+Kotlin.code-workspace
